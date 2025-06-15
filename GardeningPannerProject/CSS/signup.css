@@ -1,0 +1,112 @@
+/* 🌿 Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* 🌿 Body Styling */
+body {
+  background-color: #e8f5e9; /* हल्का हरा */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* 🌿 Animation for Container */
+@keyframes slideFade {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 🌿 Signup Box */
+.container-signup {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(34, 139, 34, 0.2);
+  width: 90%;
+  max-width: 400px;
+  animation: slideFade 1s ease-out;
+}
+
+/* 🌿 Heading */
+.container-signup h2 {
+  color: #2e7d32;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* 🌿 Input and Select Fields */
+.container-signup input,
+.container-signup select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #a5d6a7;
+  border-radius: 10px;
+  background-color: #f1f8e9;
+  font-size: 16px;
+}
+
+/* 🌿 Signup Button */
+#signup-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #43a047;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  animation: glow 2s infinite ease-in-out;
+}
+
+/* 🔆 Button Glow Animation */
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 5px #66bb6a;
+  }
+  50% {
+    box-shadow: 0 0 20px #43a047;
+  }
+  100% {
+    box-shadow: 0 0 5px #66bb6a;
+  }
+}
+
+#signup-btn:hover {
+  background-color: #388e3c;
+}
+
+/* 🌿 Message & Link */
+#signup-message {
+  color: #d32f2f;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.container-signup p {
+  text-align: center;
+  margin-top: 10px;
+  color: #2e7d32;
+}
+
+.container-signup a {
+  color: #1b5e20;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.container-signup a:hover {
+  text-decoration: underline;
+}

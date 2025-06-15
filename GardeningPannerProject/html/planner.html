@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/planner.css">
+    <link rel="stylesheet" href="../CSS/header.css">
+  </head>
+  <body>
+<div id="header-div"></div>
+
+
+    <h2>Add New Plant</h2>
+    <form id="plant-form">
+      <input
+        type="text"
+        id="plantName"
+        placeholder="Plant Name"
+        required
+      /><br /><br />
+
+      <input
+        type="text"
+        id="wateringSchedule"
+        placeholder="Watering Schedule (e.g. Daily, Weekly)"
+        required
+      /><br /><br />
+
+      <input
+        type="text"
+        id="sunlightRequirement"
+        placeholder="Sunlight Requirement (e.g. Full Sun, Partial Shade)"
+        required
+      /><br /><br />
+
+      <input
+        type="text"
+        id="soilType"
+        placeholder="Soil Type (e.g. Loamy, Sandy)"
+        required
+      /><br /><br />
+
+      <textarea id="notes" placeholder="Additional Notes"></textarea
+      ><br /><br />
+
+      <button type="submit">Add Plant</button>
+    </form>
+
+    <div id="message"></div>
+  </body>
+</html>
+<script type="module" src="../JSfile/auth.js"></script>
+<script type="module" src="../JSfile/plaanar.js"></script>

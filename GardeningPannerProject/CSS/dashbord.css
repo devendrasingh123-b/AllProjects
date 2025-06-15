@@ -1,0 +1,66 @@
+#plant-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.plant-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 10px;
+  background: #e6ffe6;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+  width: 200px;
+}
+.plant-card h3 {
+  margin-top: 0;
+}
+.plant-card button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+/* weater css */
+
+
+#weather-info {
+  background-color: #e6f7e6; /* हल्का हरा background (nature feel) */
+  color: #333; /* readable dark text */
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 128, 0, 0.2); /* हल्की shadow */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  max-width: 400px;
+  margin: 20px auto; /* center align */
+  text-align: center;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#weather-info:hover {
+  background-color: #d0f0c0; /* hover पर थोड़ा और light green */
+  box-shadow: 0 6px 12px rgba(0, 128, 0, 0.3);
+}
+
+
+#weather-info {
+  font-size: 18px;
+}
+
+
+@media (max-width: 480px) {
+  #weather-info {
+    font-size: 14px;
+    padding: 12px;
+  }
+}
+
+
+
+

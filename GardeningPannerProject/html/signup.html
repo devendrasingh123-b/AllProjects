@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+
+    <!-- ✅ CSS File जोड़े (जैसे login.css में था) -->
+    <link rel="stylesheet" href="../CSS/signup.css" />
+  </head>
+  <body>
+    <!-- ✅ Signup Container -->
+    <div class="container-signup">
+      <!-- 🔄 पहले "singup" था, अब "signup" कर दिया -->
+
+      <h2>Sign Up</h2>
+      <!-- 🔄 Spelling सुधार: Sing → Sign -->
+
+      <!-- ✅ Email Input -->
+      <input type="email" id="signup-email" placeholder="Enter your email" />
+
+      <!-- ✅ Password Input -->
+      <input
+        type="password"
+        id="signup-password"
+        placeholder="Enter your password"
+      />
+
+      <!-- ✅ Role Selection -->
+      <select id="role">
+        <option value="user">User</option>
+        <option value="admin">Admin</option>
+      </select>
+
+      <!-- ✅ Signup Button -->
+      <button id="signup-btn">Sign Up</button>
+      <!-- 🔄 Spelling सुधार -->
+
+      <!-- ✅ Message Area -->
+      <p id="signup-message"></p>
+
+      <!-- ✅ Already Have Account -->
+      <p>Already have an account? <a href="../index.html">Login</a></p>
+      <!-- 🔄 Spelling सुधार -->
+    </div>
+  </body>
+</html>
+
+<script type="module" src="../JSfile/auth.js"></script>

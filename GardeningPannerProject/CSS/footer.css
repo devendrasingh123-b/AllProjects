@@ -1,0 +1,21 @@
+.app-footer {
+  background-color: #2e7d32;  /* Dark green */
+  color: #f1f8e9;            /* Light green text */
+  text-align: center;
+  padding: 20px 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+  font-family: sans-serif;
+}
+
+.app-footer a {
+  color: #c8e6c9;
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+.app-footer a:hover {
+  text-decoration: underline;
+}
